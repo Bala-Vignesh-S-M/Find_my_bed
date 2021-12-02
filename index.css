@@ -107,38 +107,11 @@ header{
 main{
     grid-area: main;
     padding : 1rem;
-    background-color: rgb(126, 166, 226);
 }
 footer{
     grid-area: footer;
-    background-color: #3418d4;
+    background-color: #31228b;
     color: black;
-}
-.item {
-  background: var(--clr-white);
-  display: flex;
-  justify-content: space-between;
-  max-width: 1300px;
-  margin: 2rem auto;
-  align-items: center;
-  border-radius: var(--radius);
-}
-.item button,
-.item a {
-  background: transparent;
-  border-color: transparent;
-  color: var(--clr-primary-5);
-  letter-spacing: var(--spacing);
-  cursor: pointer;
-}
-.item {
-  padding: 1rem 2rem;
-}
-.item h4 {
-  margin-bottom: 0;
-}
-.item p {
-  margin-bottom: 0;
 }
 a{
     color:white;
